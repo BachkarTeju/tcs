@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+header .bank-name {
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+#intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.intro-text, .intro-image {
+    width: 48%;
+}
+
+.intro-text h1 {
+    margin-top: 0;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
